@@ -1,0 +1,71 @@
+{
+	"scenes": {
+		"one": {
+			"entities": {
+				"default camera": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0,
+								-46.72116875172894,
+								62.853930566438855
+							]
+						},
+						"rotation": {
+							"type": "quaternion",
+							"parameters": [
+								0.384808188808245,
+								0,
+								0,
+								0.9229965643631173
+							]
+						}
+					},
+					"camera": {
+						"fov": 107.64,
+						"near": 130.35
+					}
+				},
+				"entity": {
+					"transform": {
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								17.99,
+								28.89,
+								1
+							]
+						},
+						"rotation": {
+							"type": "quaternion",
+							"parameters": [
+								0.9022675940990952,
+								0,
+								0,
+								0.4311765167986662
+							]
+						},
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-3.81,
+								0,
+								0
+							]
+						}
+					},
+					"mesh": {
+						"materialType": "lambert"
+					}
+				}
+			}
+		}
+	},
+	"config": {
+		"shadowMapEnabled": true,
+		"shadowMapType": "PCFShadowMap",
+		"clearColour": 13959168,
+		"pointerLockEnabled": false
+	}
+}
